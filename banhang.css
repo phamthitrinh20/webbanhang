@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: -1;
+    background-color: #f5f5f5;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+.list-product-title{
+    width: 100%;
+    text-transform: uppercase;
+   
+}
+.list-product-subtitle{
+    width: 100%;
+    margin-left: 5px ;
+    margin-right: 5px;
+}
+.card-product{
+    position: relative;
+    overflow: hidden;
+}
+.product-title{
+    margin-bottom: 0.25rem;
+}
+.product-price{
+    position: relative;
+   
+}
+.del-price{
+    text-decoration: line-through; /*gach ngang*/
+
+}
+.new-price{
+    color: rgb(240, 161, 15);
+    margin-left: 2rem;
+   
+}
+.btn-add-to-cart{
+    color: white !important;
+    background-color: rgb(9, 9, 95);
+    margin-top: 10px;
+}
+.btn-add-to-cart:hover{
+    background-color: orange !important;
+}
+.btn-detail{
+    margin-top: 10px;
+}
+.btn-detail:hover{
+    color: white !important;
+    background-color:green ;
+}
+.sale-sticky{
+    color: white;
+    background-color:orangered ;
+    display: block;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    margin-top: -280px;
+    margin-left: 160px;
+    transform:rotate(45deg) ; /*xoay 45 do*/
+}
+.footer{
+    background-color: #F1F1F1 ;
+}
+.footer-b{
+    background-color: #3f3f3f;
+    color: white;
+    padding-top: 28px;
+    
+   
+}
+.footer i{
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    font-size: 20px;
+}
+.footer i:hover{
+    color:rgb(18, 18, 43);
+}
+.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+}
